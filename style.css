@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container {
+    width: 1064px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* header start */
+
+.header__wrapper {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav__link {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 28px;
+}
+.left-desc {display: flex; align-items: center;}
+.nav {margin-right: 100px;}
+
+.header__items {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* intro */
+.intro__wrapper{
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro {
+    background-color: #F0EFEB;
+}
+
+.intro__title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 42px;   
+}
+.intro__description {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.button {
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #FFFFFF;
+    background-color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+.left-side {
+    max-width: 511px;
+}
+
+
+/* about */
+
+.about__wrapper {
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+.about__text{text-align: center; margin-bottom: 87px;}
+
+.about__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.about__desc{
+    width: 632px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.cards__wrapper {
+    justify-content: space-between;
+    display: flex;
+}
+
+.cards__text {
+    text-align: center;
+    margin-bottom: 51px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card__title {
+    padding: 30px 0px 17px 0px;
+    font-size: 17px;
+    font-weight: 700;
+    max-width: 156px;
+    margin: 0 auto;
+}
+.card__prise{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.card {
+  text-align: center;
+ 
+}
+.card__add {
+    font-weight: 700;
+    color: black;
+}
